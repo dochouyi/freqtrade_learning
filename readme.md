@@ -37,9 +37,9 @@
 
 ## 网页资料
 
- [开源github项目.md](开源github项目.md)   [一些网页资料.md](一些网页资料.md) 
+[github搜索项目](https://github.com/topics/freqtrade-strategies) [开源github项目.md](开源github项目.md)   [一些网页资料.md](一些网页资料.md) 
 
-[讲解量化交易的 Dutch algotrading](https://www.youtube.com/@dutchalgotrading)
+[讲解量化交易的Youtuber Dutch algotrading](https://www.youtube.com/@dutchalgotrading)
 
 
 
