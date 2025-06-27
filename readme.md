@@ -1,7 +1,6 @@
 # freqtrade以及加密货币量化交易学习路线图
 
 
-
 ## freqtrade开发
 
 -  [freqtrade环境安装以及lstm安装.md](freqtrade/freqtrade环境安装以及lstm安装.md) 
@@ -18,6 +17,11 @@
 - [freqtrade develop 官方英文文档](https://www.freqtrade.io/en/develop/) 
 - [freqtradebot 大模型资料](https://deepwiki.com/freqtrade/freqtrade/2.1-freqtradebot-orchestration)
 - [freqlstm大模型资料](https://deepwiki.com/Netanelshoshan/freqAI-LSTM/3.1-target-score-calculation)
+
+## 大模型提示词与回答（便于利用freqtrade的代码）
+
+
+
 
 
 
