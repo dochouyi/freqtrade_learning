@@ -20,7 +20,7 @@
 
 ## 大模型提示词与回答（便于利用freqtrade的代码）
 
-
+ [大模型提示词与回答](大模型提示词与回答) 
 
 
 
@@ -77,3 +77,6 @@
 
 
 
+## tradingview社区指标
+
+ [readme.md](tradingview指标/readme.md) 

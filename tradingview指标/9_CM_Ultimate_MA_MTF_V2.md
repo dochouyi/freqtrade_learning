@@ -6,9 +6,7 @@ https://www.tradingview.com/v/8KVcQiJM/
 
 ![image-20250702104142860](https://pkuxiaohou.oss-cn-beijing.aliyuncs.com/img/202507021041934.png)
 
-**CM_Ultimate_MA_MTF_V2 - 新增 Tilson T3**
 
----
 
 ### 主要特性
 
@@ -33,13 +31,12 @@ https://www.tradingview.com/v/8KVcQiJM/
 - **VWMA**：成交量加权移动平均线
 - **RMA**：RSI中常用的移动平均，类似EMA
 - **TEMA**：三重指数移动平均线
-- **Tilson T3**：Tilson T3 移动平均线（本版本新增）
+- **Tilson T3**：Tilson T3 移动平均线
 
 ---
 
 **说明**  
-该指标适用于需要多周期、多类型均线分析的交易者，尤其适合趋势跟踪和交叉信号策略。可灵活设置均线参数和显示方式，满足不同交易风格需求。
-
+该指标适用于需要**多周期、多类型均线**分析的交易者，尤其适合趋势跟踪和交叉信号策略。可灵活设置均线参数和显示方式，满足不同交易风格需求。
 
 
 

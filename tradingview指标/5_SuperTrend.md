@@ -20,4 +20,4 @@ SuperTrend 是最常见的基于 ATR 的跟踪止损指标之一。
 
 “SuperTrend”指标可应用于股票、期货、外汇甚至加密货币市场，并且适用于日线、周线及小时图等多种周期，但通常在震荡行情中效果有限。
 
-我曾于 2017 年将 SuperTrend 指标代码转换至 Metastock 等多个平台，但在 TradingView 版本中，特别要感谢 everget - Alex Orekhov，他极大地启发了我，让我的指标在高亮、信号和警报方面表现得更好。感谢 Alex。
+我曾于 2017 年将 SuperTrend 指标代码转换至 Metastock 等多个平台。
