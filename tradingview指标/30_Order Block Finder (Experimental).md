@@ -4,40 +4,32 @@ https://www.tradingview.com/v/R8g2YHdg/
 
 ![image-20250701161022507](https://pkuxiaohou.oss-cn-beijing.aliyuncs.com/img/202507011610573.png)
 
-The purpose of this experimental Indicator is to help identifying Institutional Order Blocks.
+本实验性指标旨在辅助识别机构订单块（Institutional Order Blocks）。
 
-Often these Order Blocks can be observed at the beginning of a strong move, but there is a significant probability that these price levels will be revisited at a later point in time again. Therefore these are interesting levels to place limit orders (Buy Orders for Bullish OB / Sell Orders for Bearish OB).
+通常，这些订单块可在一波强劲行情的起始阶段被观察到，但这些价格区间在随后被市场重新触及的概率较高。因此，这些位置成为设置限价单（看涨订单块对应买单/看跌订单块对应卖单）的有趣区域。
 
-A Bullish Order block is defined as the last down candle before a sequence of up candles. (Relevant price range "Open" to "Low" is marked)
-A Bearish Order Block is defined as the last up candle before a sequence of down candles. (Relevant price range "Open" to "High" is marked)
+**定义：**  
+- **看涨订单块（Bullish Order Block）**：指一连串上涨K线前的最后一根下跌K线（标记“开盘价”至“最低价”区间）。
+- **看跌订单块（Bearish Order Block）**：指一连串下跌K线前的最后一根上涨K线（标记“开盘价”至“最高价”区间）。
 
-In the settings the number of required sequential candles can be adjusted.
-Furthermore a %-threshold can be entered. It defines which minimum %-change the sequential move needs to achieve in order to identify a relevant Order Block. If this is used, it makes sense to adjust it to the timeframe which is analyzed as of course higher timeframes usually produce bigger moves.
+在参数设置中，用户可调整所需的连续K线数量。此外，可输入百分比阈值，用以限定连续行情需达到的最小百分比变动，才被识别为有效订单块。如启用该功能，建议根据所分析的时间周期进行调整，因为高周期通常对应更大幅度的行情波动。
 
-Channels for the last Bullish/Bearish Block can be shown/hidden.
+可选择显示/隐藏最近一次看涨/看跌订单块的通道。
 
-In addition to the upper/lower limits of each Order Block, also the equlibrium (average value) is marked as this is an interesting area for price interaction.
+除每个订单块的上下限外，还会标记其均衡价（平均值），该区域通常也是价格交互的重点区域。
 
-Please note that you can optionally display a "Docu"-Label which shows some information about the indicator as a tooltip.
+请注意，您可选择显示“Docu”标签，以工具提示形式展示指标相关信息。
 
-Remark:
-As the identification of a relevant Order Block is only possible after the required number of subsequent candles has closed, this indicator "repaints" by definition. But I do not see this as an issue as the relevancy of the Order Blocks and the interaction of price with these levels usually only happens longer in the future anyway.
+**备注：**  
+由于仅在所需数量的后续K线收盘后才能确认有效订单块，因此该指标本质上会“重绘”。但这并不构成实际问题，因为订单块的有效性及价格与这些区间的交互，通常都发生在更长远的未来。
 
-Sep 17, 2020
+---
 
-Release Notes
+**2020年9月17日 更新说明**
 
-Update:
+新增可选项：为每个已识别的订单块标记完整区间（“最低价”至“最高价”，即包含上下影线）。
 
-Received the request from @AtotheO to give the option to mark the full range "Low" to "High" (including both wicks) for each identified OB.
-
-The underlying reason why I only used Open-Low for Bullish OBs and Open-High for Bearish OBs was the thought, that Institutional Investors are using these candles for their initial entries. So the assumption is that they are behaving "more smart" than the general market and tend to buy lower/sell higher that the average and therefore most probably have a more favourable entry price than the average. Therefore I left out the "unfavourable" wicks.
-
-But I agree with the opinion that this should be selectable by the user of the indicator and here is the update:
-
-New input field allows to select "Use whole range [High/Low] for OB marking". By default it is de-selected.
-
-Enjoy.
+此前仅用“开盘-最低”标记看涨订单块、“开盘-最高”标记看跌订单块，考虑到机构投资者更倾向于以优于市场平均的价格建仓，因此未包含“非理想”的影线部分。但认同用户反馈，现将该选项开放给指标使用者自主选择，默认不选中。
 
 
 

@@ -4,26 +4,42 @@ https://www.tradingview.com/v/EvkXjgyw/
 
 ![image-20250702110217177](https://pkuxiaohou.oss-cn-beijing.aliyuncs.com/img/202507021102253.png)
 
-**Helo All,**
+## 突破检测脚本功能说明
 
-I got many requests for a Breakout script and here it's. This script searches the breakouts/breakdowns and draw square if there is one.
+本脚本应广大用户需求而开发，旨在自动识别价格的突破（Breakout）与跌破（Breakdown）行为，并在图表上以方框标注显著的突破区域。
 
-**The options:**
-*"Period"* is used to find Pivot Points
-**"Max Breakout Length"\* is the maximum length to search breakouts
-"Threshold Rate %"* is channel width of the breakout area. calculated using highest/lowest of last 300 bars.
-*"Minimum Number of Tests"* is the minimum number of tests that the Price tried to break the S/R level
-and some options for coloring and linestyle
+### 主要参数说明
 
-Lets see some examples:
+- **Period（周期）**  
+  用于寻找枢轴点（Pivot Points），即关键支撑/阻力位置的参考周期。
 
-in this example *"Minimum Number of Tests"* is 2 so the Price must have tested to break resistance area 2 times and then it breaks it as seen in the screenshot:
-[![snapshot](https://www.tradingview.com/x/LkrwnORh/)](https://www.tradingview.com/x/LkrwnORh/)
+- **Max Breakout Length（最大突破长度）**  
+  指定在多长区间内搜索突破信号，防止过长或无效突破。
 
-in following example *Threshold rate* is %10, so the channel width is very big:
-[![snapshot](https://www.tradingview.com/x/ZzGVRncy/)](https://www.tradingview.com/x/ZzGVRncy/)
+- **Threshold Rate %（阈值比例）**  
+  定义突破区域的通道宽度。该宽度由最近300根K线的最高价与最低价计算得出。阈值越大，突破区域越宽松。
 
-as you can see in followinf screenshot you can choose different colors and line styles:
-[![snapshot](https://www.tradingview.com/x/ge0gIQ5B/)](https://www.tradingview.com/x/ge0gIQ5B/)
+- **Minimum Number of Tests（最少测试次数）**  
+  要求价格在突破支撑/阻力前，至少有几次测试该价位。举例：设置为2，表示价格需至少两次尝试冲击阻力/支撑，第三次才算真正突破。
 
-Alerts added ;)
+- **颜色与线型自定义**  
+  提供多种颜色和线型选项，便于个性化显示和视觉区分。
+
+### 示例说明
+
+- **最少测试次数示例**  
+  在下图中，设置“最少测试次数”为2，价格经过两次测试后，第三次实现有效突破：  
+  ![示例1](https://www.tradingview.com/x/LkrwnORh/)
+
+- **阈值比例示例**  
+  下图中，“阈值比例”设为10%，通道宽度较大，突破区域更加宽泛：  
+  ![示例2](https://www.tradingview.com/x/ZzGVRncy/)
+
+- **颜色与线型自定义示例**  
+  用户可根据喜好选择不同的颜色和线型，提升图表可读性：  
+  ![示例3](https://www.tradingview.com/x/ge0gIQ5B/)
+
+---
+
+**总结：**  
+该突破检测脚本通过灵活的参数设置与可视化选项，能高效识别和标记关键突破/跌破区域。支持对突破前反复测试、突破通道宽度等细节的严格把控，适用于多种交易风格和品种的技术分析。

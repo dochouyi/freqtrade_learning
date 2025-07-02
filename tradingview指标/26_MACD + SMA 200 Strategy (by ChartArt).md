@@ -6,12 +6,11 @@ https://www.tradingview.com/v/yMCa3XZD/
 
 ![image-20250701160248799](https://pkuxiaohou.oss-cn-beijing.aliyuncs.com/img/202507011602871.png)
 
-Here is a combination of the classic MACD (moving average convergence divergence indicator) with the classic slow moving average SMA with period 200 together as a strategy.
 
-This strategy goes long if the MACD histogram and the MACD momentum are both above zero and the fast MACD moving average is above the slow MACD moving average. As additional long filter the recent price has to be above the SMA 200. If the inverse logic is true, the strategy goes short. For the worst case there is a max intraday equity loss of 50% filter.
+本策略结合了经典的MACD（移动平均收敛发散指标）与周期为200的经典慢速移动平均线（SMA），共同构建交易策略。
 
-Save another $999 bucks with my free strategy.
+当MACD柱状图与MACD动量均高于零，且MACD快线高于MACD慢线时，策略发出多头信号。作为额外的多头筛选条件，近期价格需高于SMA 200。若上述条件反向成立，则发出空头信号。为防范极端风险，策略设置了最大日内权益亏损50%的风控过滤。
 
-*This strategy works in the backtest on the daily chart of Bitcoin, as well as on the S&P 500 and the Dow Jones Industrial Average daily charts. Current performance as of November 30, 2015 on the SPX500 CFD daily is percent profitable: 68% since the year 1970 with a profit factor of 6.4. Current performance as of November 30, 2015 on the DOWI index daily is percent profitable: 51% since the year 1915 with a profit factor of 10.8.
-*
-**All trading involves high risk; past performance is not necessarily indicative of future results. Hypothetical or simulated performance results have certain inherent limitations. Unlike an actual performance record, simulated results do not represent actual trading. Also, since the trades have not actually been executed, the results may have under- or over-compensated for the impact, if any, of certain market factors, such as lack of liquidity. Simulated trading programs in general are also subject to the fact that they are designed with the benefit of hindsight. No representation is being made that any account will or is likely to achieve profits or losses similar to those shown.**
+使用本免费策略，可为您节省$999费用。
+
+*本策略在比特币日线图、标普500指数及道琼斯工业平均指数日线图的回测中均有效。截至2015年11月30日，SPX500 CFD日线的当前表现为：自1970年以来盈利交易占比68%，利润因子为6.4；DOWI指数日线的当前表现为：自1915年以来盈利交易占比51%，利润因子为10.8。*

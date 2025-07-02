@@ -6,23 +6,44 @@ https://www.tradingview.com/v/xOm7jSPf/
 
 ![image-20250701161131659](https://pkuxiaohou.oss-cn-beijing.aliyuncs.com/img/202507011611742.png)
 
-RSI-2 Strategy
+## RSI-2 策略简介
 
-***At the bottom of the page is a link where you can download the PDF of the Backtesting Results.
+RSI-2策略由Larry Connors开发，是一种专为日线级别设计的短线交易系统。该策略因其简单高效而广受关注，实测在多种市场环境（上升、下降及综合趋势）下均表现优异，持仓平均时长约2天，收益显著超越市场平均水平。
 
-This year I am focusing on learning from two of the best mentors in the Industry with outstanding track records for Creating Systems, and learning the what methods actually work as far as back testing.
+### 策略核心指标与规则
 
-I came across the RSI-2 system that Larry Connors developed. Larry has become famous for his technical indicators, but his RSI-2 system is what actually put him “On The Map” per se. At first glance I didn’t think it would work well, but I decided to code it and ran backtests on the S&P 100 In Down Trending Markets, Up Trending Markets, and both combined. I was shocked by the results. So I thought I would provide them for you. I also ran a test on the Major forex Pairs (12) for the last 5 years, and All Forex Pairs (80) from 11/28/2007 - 6/09/2014, impressive results also.
+**主要指标：**
+- RSI（相对强弱指标），周期设为2（RSI-2）
+- 200日移动平均线（MA200）
 
-The RSI-2 Strategy is designed to use on Daily Bars, however it is a short term trading strategy. The average length of time in a trade is just over 2 days. But the results CRUSH the general market averages.
+**入场规则（以做多为例）：**
+1. 当前收盘价高于200日均线（即处于长期上升趋势）
+2. RSI-2小于10（极度超卖）
+3. 满足以上两条件时，下一交易日开盘买入
 
-Detailed Description of Indicators, Rules Below:
+**出场规则：**
+- 当持仓期间RSI-2大于70时，下一交易日开盘卖出
 
-Link For PDF of Detailed Trade Results
-[d.pr/f/Q885](http://d.pr/f/Q885)
+**做空可反向应用：**
+- 当前收盘价低于200日均线
+- RSI-2大于90（极度超买）
+- RSI-2跌回70以下时平仓
 
-Original Post
-[tradingview.com/v/EVXQPaR9/](https://www.tradingview.com/v/EVXQPaR9/)
+### 回测与实证结果
+
+- 在S&P100指数的上涨、下跌及混合趋势中均有优异表现
+- 对主要12个外汇对近5年，以及全部80个外汇对（2007-2014）的测试同样结果突出
+- 策略平均持仓期仅2天多，胜率高，回撤低
+
+### 参考资料与原文链接
+
+- [详细回测结果PDF下载](http://d.pr/f/Q885)
+- [TradingView原帖](https://www.tradingview.com/v/EVXQPaR9/)
+
+---
+
+**总结：**  
+RSI-2策略以极短的RSI周期捕捉超买超卖信号，结合长期趋势过滤，简单有效，适合日线级别的短线交易者。实际回测显示其在多市场环境下都有较好表现，值得深入研究与实盘测试。
 
 
 

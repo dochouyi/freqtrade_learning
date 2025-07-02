@@ -5,22 +5,37 @@ https://www.tradingview.com/v/Wylw98ue/
 ![image-20250702110029463](https://pkuxiaohou.oss-cn-beijing.aliyuncs.com/img/202507021100551.png)
 
 
+## 多周期随机指标（Multi TimeFrame Stochastic）功能说明
 
-Multi TimeFrame Stochastic Loaded With Features.
+### 基本功能
 
-Basics:
-Ability to turn On/Off Crosses Only Above or Below High/Low Lines.
-User sets Values Of High/Low lines.
-Ability to turn On/Off All Crosses, Both BackGround Highlights and “B”, “S” Letters.
-Ability to turn On/Off BackGround Highlights if Stoch is Above Or Below High/Low Lines.
-Ability to All or Any Combination of these Features.
+- **高低线交叉提示可开关**  
+  - 可选择仅在K线随机指标（Stoch）高于“高线”或低于“低线”时，显示交叉信号。
+  - 用户可自定义“高线/低线”数值。
 
-Multi Timeframe Capabilities:
-Stoch defaults to current timeframe. You can change to many other timeframes.
-Ability to turn On/Off Plotting 2nd Stoch on same TimeFrame with different settings
-Ability to turn On/Off Plotting 2nd Stoch on Different TimeFrame
+- **交叉信号与背景高亮可开关**  
+  - 可单独开关所有交叉提示，包括图表上的“B”（买入）、“S”（卖出）字母和背景高亮。
+  - 可选择仅在Stoch高于“高线”或低于“低线”时，显示背景高亮。
+  - 所有功能支持任意组合开启/关闭，灵活度高。
 
-Much More…All Inputs and Options are Adjustable in Inputs Tab.
+### 多周期（Multi TimeFrame, MTF）功能
+
+- **指标周期选择**  
+  - 默认使用当前图表周期作为Stoch计算周期，也可切换为其他任意周期。
+
+- **双随机指标叠加**  
+  - 可选择在同一周期下，叠加第二组不同参数的Stoch。
+  - 或叠加第二组Stoch，且其计算周期不同于当前图表周期。
+
+### 其他特性
+
+- **全部参数和选项可调**  
+  - 所有输入参数和显示选项均可在“Inputs”标签页中自定义调整。
+
+---
+
+**总结：**  
+此多周期随机指标脚本极其灵活，支持多种信号和可视化方式的自由组合，满足不同交易风格和策略需求。强大的多周期叠加能力，方便进行多维度趋势和超买超卖分析，是进阶技术分析的有力工具。
 
 
 

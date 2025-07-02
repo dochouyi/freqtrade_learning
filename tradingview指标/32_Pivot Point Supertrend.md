@@ -4,30 +4,42 @@ https://cn.tradingview.com/v/L0AIiLvH/
 
 ![image-20250701163115750](https://pkuxiaohou.oss-cn-beijing.aliyuncs.com/img/202507011631821.png)
 
-**Hello All,**
+## Pivot Point SuperTrend 指标说明
 
-There are many types of SuperTrend around. Recently I thought about a Supertrend based on Pivot Points then I wrote **"Pivot Point SuperTrend"** script. It looks it has better performance on keeping you in the trend more.
+大家好，
 
-The idea is behind this script is finding pivot point, calculating average of them and like in supertrend creating higher/lower bands by ATR. As you can see in the algorithm the script gives weigth to past pivot points, this is done for smoothing it a bit.
+市面上有许多类型的SuperTrend（超级趋势）指标。近期我思考了一个基于枢轴点（Pivot Point）的SuperTrend，并编写了**“Pivot Point SuperTrend”**脚本。实测发现，该指标在趋势跟随方面表现更优，能更有效地让你持有趋势头寸。
 
+### 核心思想
 
-As I wrote above it may keep you in the trend more, lets see an example:
-[![快照](https://www.tradingview.com/x/Ht07v5K2/)](https://www.tradingview.com/x/Ht07v5K2/)
+本脚本的核心思想是：  
+- 首先识别枢轴点（Pivot Point），并计算其均值，用于作为趋势的参考中心线。
+- 类似传统SuperTrend，利用ATR（平均真实波幅）构建上下波动带（高/低带）。
+- 算法中对历史枢轴点赋予权重，实现平滑处理，减少噪音。
 
-As an option the script can show main center line and I realized that when you are in a position, this line can be used as early exit points. (maybe half of the position size)
-[![快照](https://www.tradingview.com/x/9m2Q4Caf/)](https://www.tradingview.com/x/9m2Q4Caf/)
+### 指标特性与用法
 
-While using Pivot Points, I added support resistance lines by using Pivot Point, as an option the script can show S/R lines:
-[![快照](https://www.tradingview.com/x/l5nmuf35/)](https://www.tradingview.com/x/l5nmuf35/)
+- **趋势跟随能力更强**：如示例图所示，Pivot Point SuperTrend能更好地让你跟随趋势，避免频繁出场。
+  - ![趋势示例](https://www.tradingview.com/x/Ht07v5K2/)
 
-And also it can show Pivot Points:
-[![快照](https://www.tradingview.com/x/HnEY5aJD/)](https://www.tradingview.com/x/HnEY5aJD/)
+- **中心线用作提前止盈**：脚本可选显示主中心线。当持仓时，可将此线作为提前部分止盈的参考点。
+  - ![中心线示例](https://www.tradingview.com/x/9m2Q4Caf/)
 
-When you changed Pivot Point Period you can see its reaction, in following example PP period is 4 (default value is 2). Smaller PP periods more sensitive trendlines.
-[![快照](https://www.tradingview.com/x/hqRkAj9N/)](https://www.tradingview.com/x/hqRkAj9N/)
+- **支撑/阻力线显示**：利用枢轴点可自动绘制支撑/阻力线，作为辅助判断。
+  - ![支撑阻力示例](https://www.tradingview.com/x/l5nmuf35/)
 
-Alerts added for Buy/Sell entries and Trend Reversals. (when you set alerts use the option "*Once Per Bar Close*")
+- **枢轴点显示**：可选直接在图表上标注各个枢轴点。
+  - ![枢轴点示例](https://www.tradingview.com/x/HnEY5aJD/)
 
+- **参数灵活调整**：可调整枢轴点周期（如PP period=4，默认2），周期越小，趋势线越敏感，适合不同交易风格。
+  - ![周期调整示例](https://www.tradingview.com/x/hqRkAj9N/)
 
+### 警报功能
 
-ENJOY!
+- 已内置买入/卖出及趋势反转的警报功能。
+- 设置警报时建议选择“每根K线收盘时触发（Once Per Bar Close）”。
+
+---
+
+**总结：**  
+Pivot Point SuperTrend结合了枢轴点和ATR的优点，通过对历史枢轴点加权平均，实现趋势线平滑且跟随性强。可视化中心线、支撑阻力以及灵活参数设置，使其在趋势跟随和交易管理中具有较高实用价值。

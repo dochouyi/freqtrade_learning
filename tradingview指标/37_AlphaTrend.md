@@ -8,44 +8,42 @@ https://www.tradingview.com/v/o50NYLAZ/
 
 Mar 24, 2022
 
-AlphaTrend is a brand new indicator which I've personally derived from Trend Magic and still developing:
+AlphaTrend 是我个人基于 Trend Magic 衍生且仍在开发中的全新指标：
 
 ![Trend Magic](https://s3.tradingview.com/k/kRIjThLZ_mid.png)
 
-In Magic Trend we had some problems, Alpha Trend tries to solve those problems such as:
+在 Magic Trend 中存在一些问题，AlphaTrend 旨在解决这些问题，包括：
 
-1-To minimize stop losses and overcome sideways market conditions.
-2-To have more accurate BUY/SELL signals during trending market conditions.
-3- To have significant support and resistance levels.
-4- To bring together indicators from different categories that are compatible with each other and make a meaningful combination regarding momentum, trend, volatility, volume and trailing stop loss.
+1. 最小化止损并应对震荡市况。
+2. 在趋势市中提供更为准确的买/卖信号。
+3. 提供显著的支撑与阻力位。
+4. 融合来自不同类别、彼此兼容的指标，形成关于动量、趋势、波动率、成交量及移动止损的有意义组合。
 
-according to those purposes Alpha Trend:
-1- Acts like a dead indicator like its ancestor Magic Trendin sideways market conditions and doesn't give many false signals.
-2- With another line with 2 bars offsetted off the original one Alpha Trend have BUY and SELL signals from their crossovers.
+基于上述目标，AlphaTrend 具有以下特性：
 
-BUY / LONG when Alpha Trend line crosses above its 2 bars offsetted line and there would be a green filling between them
-SELL / SHORT when Alpha Trend line crosses below its 2 bars offsetted line and filling would be red then.
+1. 在震荡市中表现为“死指标”，如其前身 Magic Trend，不会频繁给出虚假信号。
+2. 通过一条相对于主线偏移2根K线的辅助线，AlphaTrend 可通过两线交叉生成买卖信号。
 
-3- Alpha Trend lines
--act as support levels when an uptrend occurs trailing 1*ATR (default coefficient) distance from bar's low values
--conversely act as resistancelevels when a downtrend occurs trailing 1*ATR (default coefficient) distance from bar's high values
-and acting as trailing stop losses
-the more Alpha Trend lines straighter the more supports and resistances become stronger.
+- 当 AlphaTrend 主线向上穿越其偏移线，且两线间填充为绿色时，发出买入/做多信号。
+- 当 AlphaTrend 主线向下穿越其偏移线，且两线间填充为红色时，发出卖出/做空信号。
 
-4- Trend Magic has CCI in calculation
-Alpha Trend has MFI as momentum, but when there's no volume data MFI has 0 values, so there's abutton to change calculation considering RSI after checking the relevant box to overcome this problem when there is no volume data in that chart.
-Momentum: RSI and MFI
-Trend: Magic Trend
-Volatility: ATR,
-Trailing STOP: ATR TRAILING STOP
-Volume: MFI
-Alpha trend is really a combination of different types...
+3. AlphaTrend 线的作用：
+   - 在上升趋势中，主线以距离K线最低价1倍ATR（默认系数）作为支撑位，并作为移动止损线。
+   - 在下降趋势中，主线以距离K线最高价1倍ATR（默认系数）作为阻力位，并作为移动止损线。
+   - AlphaTrend 线越平直，支撑与阻力作用越强。
 
-default values:
-coefficient: 1 which is the factor of trailing ATR value
-common period: 14 which is the length of ATR MFI and RSI
+4. Trend Magic 计算中采用CCI，AlphaTrend 则以MFI作为动量指标。但当无成交量数据时，MFI 值为0，因此提供了一个按钮，在勾选相关选项后可切换为RSI计算，以解决无成交量数据时的适用性问题。
+   - 动量：RSI 与 MFI
+   - 趋势：Magic Trend
+   - 波动率：ATR
+   - 移动止损：ATR Trailing Stop
+   - 成交量：MFI
 
-Wish you all use AlphaTrend in profitable trades.
+AlphaTrend 实质上是多种指标的结合体。
+
+默认参数：
+- 系数：1（ATR移动止损的倍数因子）
+- 通用周期：14（ATR、MFI及RSI的计算周期）
 
 
 

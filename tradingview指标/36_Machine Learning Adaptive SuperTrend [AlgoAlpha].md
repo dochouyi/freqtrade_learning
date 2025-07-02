@@ -8,34 +8,33 @@ https://www.tradingview.com/v/CLk71Qgy/
 
 Aug 7, 2024
 
-**📈🤖 Machine Learning Adaptive SuperTrend [AlgoAlpha] - Take Your Trading to the Next Level! 🚀✨**
+**📈🤖 机器学习自适应超级趋势 [AlgoAlpha] —— 助您交易更上一层楼！🚀✨**
 
-Introducing the **Machine Learning Adaptive SuperTrend**, an advanced trading indicator designed to adapt to market volatility dynamically using machine learning techniques. This indicator employs k-means clustering to categorize market volatility into high, medium, and low levels, enhancing the traditional SuperTrend strategy. Perfect for traders who want an edge in identifying trend shifts and market conditions.
+隆重推出**机器学习自适应超级趋势**，这是一款利用机器学习技术动态适应市场波动性的高级交易指标。该指标通过k均值聚类，将市场波动性划分为高、中、低三级，有效增强了传统超级趋势策略。非常适合希望在趋势转变和市场状态识别上获得优势的交易者。
 
-**What is K-Means Clustering and How It Works**
-K-means clustering is a machine learning algorithm that partitions data into distinct groups based on similarity. In this indicator, the algorithm analyzes ATR (Average True Range) values to classify volatility into three clusters: high, medium, and low. The algorithm iterates to optimize the centroids of these clusters, ensuring accurate volatility classification.
+**什么是K均值聚类及其工作原理**  
+K均值聚类是一种将数据按相似性划分为不同组别的机器学习算法。在本指标中，算法分析ATR（平均真实波幅）值，将波动性分为高、中、低三类。算法通过迭代优化各聚类中心，实现对波动性的精准分类。
 
-**Key Features**
-🎨 **Customizable Appearance:** Adjust colors for bullish and bearish trends.
-🔧 **Flexible Settings:** Configure ATR length, SuperTrend factor, and initial volatility guesses.
-📊 **Volatility Classification:** Uses k-means clustering to adapt to market conditions.
-📈 **Dynamic SuperTrend Calculation:** Applies the classified volatility level to the SuperTrend calculation.
-🔔 **Alerts:** Set alerts for trend shifts and volatility changes.
-📋 **Data Table Display:** View cluster details and current volatility on the chart.
+**主要特性**  
+🎨 **外观可自定义：** 可调整多头与空头趋势的颜色。  
+🔧 **设置灵活：** 支持自定义ATR周期、超级趋势因子及初始波动性估值。  
+📊 **波动性分类：** 通过k均值聚类自适应市场状态。  
+📈 **动态超级趋势计算：** 根据分类结果动态调整超级趋势计算。  
+🔔 **预警功能：** 支持趋势变化与波动性变动提醒。  
+📋 **数据表展示：** 图表中可查看聚类细节及当前波动性水平。
 
+**机器学习自适应超级趋势指标快速使用指南**
 
-**Quick Guide to Using the Machine Learning Adaptive SuperTrend Indicator**
+🛠 **添加指标：** 点击星标将指标添加至收藏。可根据个人交易风格自定义ATR周期、超级趋势因子及波动性分位数等参数。  
+[![快照](https://www.tradingview.com/x/Jnxj3v93/)](https://www.tradingview.com/x/Jnxj3v93/)
 
-🛠 **Add the Indicator:** Add the indicator to favorites by pressing the star icon. Customize settings like ATR length, SuperTrend factor, and volatility percentiles to fit your trading style.
-[![snapshot](https://www.tradingview.com/x/Jnxj3v93/)](https://www.tradingview.com/x/Jnxj3v93/)
+📊 **市场分析：** 通过颜色变化和超级趋势线观察趋势反转。利用数据表监控波动性聚类。  
+[![快照](https://www.tradingview.com/x/QGOE5sHj/)](https://www.tradingview.com/x/QGOE5sHj/)
 
-📊 **Market Analysis:** Observe the color changes and SuperTrend line for trend reversals. Use the data table to monitor volatility clusters.
-[![snapshot](https://www.tradingview.com/x/QGOE5sHj/)](https://www.tradingview.com/x/QGOE5sHj/)
+🔔 **预警：** 启用趋势与波动性变动提醒，无需时刻盯盘也能把握交易机会。  
+[![快照](https://www.tradingview.com/x/OrAjPaqh/)](https://www.tradingview.com/x/OrAjPaqh/)
 
-🔔 **Alerts:** Enable notifications for trend shifts and volatility changes to seize trading opportunities without constant chart monitoring.
-[![snapshot](https://www.tradingview.com/x/OrAjPaqh/)](https://www.tradingview.com/x/OrAjPaqh/)
+**工作原理说明**  
+该指标首先在指定训练周期内计算ATR值以评估市场波动性。用户输入高、中、低波动性分位数的初始估值，随后k均值聚类算法对ATR值进行三类聚类。此分类结果用于确定超级趋势计算中应采用的波动性水平。随着市场变化，指标会动态调整，实时提供趋势与波动性洞见。指标还集成了数据表，显示聚类中心、聚类规模及当前波动性水平，助力交易者作出明智决策。
 
-**How It Works**
-The indicator begins by calculating the ATR values over a specified training period to assess market volatility. Initial guesses for high, medium, and low volatility percentiles are inputted. The k-means clustering algorithm then iterates to classify the ATR values into three clusters. This classification helps in determining the appropriate volatility level to apply to the SuperTrend calculation. As the market evolves, the indicator dynamically adjusts, providing real-time trend and volatility insights. The indicator also incorporates a data table displaying cluster centroids, sizes, and the current volatility level, aiding traders in making informed decisions.
-
-Add the Machine Learning Adaptive SuperTrend to your TradingView charts today and experience a smarter way to trade! 🌟📊
+立即将机器学习自适应超级趋势添加至您的TradingView图表，体验更智能的交易方式！🌟📊

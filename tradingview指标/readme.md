@@ -150,6 +150,184 @@
 ---
 
 
+## 21. Madrid Moving Average Ribbon
+![image-20250702105618487](https://pkuxiaohou.oss-cn-beijing.aliyuncs.com/img/202507021056588.png)
+- 多条普通/指数均线带，颜色区分趋势强弱。
+- 辅助趋势跟随、反转捕捉，适合回调买卖点把握。
+- 适用于各类周期，直观显示多空转换。
+
+---
+
+## 22. CM_Price-Action-Bars-Price Patterns That Work!  
+![image-20250701155353094](https://pkuxiaohou.oss-cn-beijing.aliyuncs.com/img/202507011553165.png)
+
+- 自动标记Inside Bar、Outside Bar、Pin Bar等经典K线形态。
+- 辅助识别突破、反转等关键信号，提升短线决策效率。
+- 适合纯价格行为交易者。
+
+---
+
+## 23. Machine Learning: Lorentzian Classification  
+![image-202507011551235](https://pkuxiaohou.oss-cn-beijing.aliyuncs.com/img/202507011551235.png)
+
+- 基于洛伦兹距离的多维特征分类，适合时间序列预测。
+- 对极端事件和噪声更鲁棒，提升模型准确率。
+- 理论基础源自物理学洛伦兹空间，兼具创新性与实用性。
+
+---
+
+## 24. ICT Killzones + Pivots [TFO]  
+![image-20250701155519277](https://pkuxiaohou.oss-cn-beijing.aliyuncs.com/img/202507011555348.png)
+
+- 自动标记ICT关键交易时段（Killzones）及其内高低点。
+- 辅助捕捉日内波动机会，设定关键支撑/阻力。
+- 适合日内交易和高频策略。
+
+---
+
+## 25. Divergence for Many Indicators v4  
+![image-202507011558978](https://pkuxiaohou.oss-cn-beijing.aliyuncs.com/img/202507011558978.png)
+
+- 多指标（RSI、MACD等）背离检测，支持正/负/隐性背离。
+- 可自定义检测周期和指标，自动标注信号。
+- 适合多周期共振与背离策略。
+
+---
+
+## 26. MACD + SMA 200 Strategy (by ChartArt)  
+![image-20250701160248799](https://pkuxiaohou.oss-cn-beijing.aliyuncs.com/img/202507011602871.png)
+
+- 结合MACD和200日SMA，经典趋势跟随策略。
+- 双重确认减少虚假信号，适合中长线操作。
+- 自动生成买卖信号。
+
+---
+
+## 27. UT Bot Alerts  
+*无首图，未检测到有效图片链接*
+
+- 趋势跟随型策略，自动发出买卖信号。
+- 适合自动化交易和趋势捕捉。
+
+---
+
+## 28. Nadaraya-Watson Envelope [LuxAlgo]  
+![image-202507011605102](https://pkuxiaohou.oss-cn-beijing.aliyuncs.com/img/202507011605102.png)
+
+- 基于核平滑的价格包络线，集成极值交叉预警。
+- 可选无重绘模式，适合实时监控极端波动。
+- 支持区间自适应。
+
+---
+
+## 29. CM_Pivot Points_M-W-D-4H-1H_Filtered  
+![image-20250701160837029](https://pkuxiaohou.oss-cn-beijing.aliyuncs.com/img/202507011608103.png)
+- 多周期枢轴点过滤，支持多时间框架。
+- 辅助识别关键支撑/阻力，提升多周期共振判断。
+- 适合趋势和区间交易。
+
+---
+
+## 30. Order Block Finder (Experimental)  
+![image-202507011610573](https://pkuxiaohou.oss-cn-beijing.aliyuncs.com/img/202507011610573.png)
+
+- 自动识别机构订单块，标记潜在买卖区。
+- 捕捉大资金行为，寻找高概率进出场点。
+- 支持多周期和自定义参数。
+
+---
+
+## 31. CM RSI-2 Strategy Lower Indicator  
+![image-202507011611742](https://pkuxiaohou.oss-cn-beijing.aliyuncs.com/img/202507011611742.png)
+
+- 基于RSI-2和MA200的短线策略。
+- 专注超短线回调买卖，平均持仓2天。
+- 历史回测表现优异。
+
+---
+
+## 32. Pivot Point Supertrend  
+![image-202507011631821](https://pkuxiaohou.oss-cn-beijing.aliyuncs.com/img/202507011631821.png)
+
+- 枢轴点与ATR波动带结合的SuperTrend变体。
+- 趋势跟随能力强，信号更持久。
+- 适合波段操作和趋势延续判断。
+
+---
+
+## 33. CM Stochastic Multi-TimeFrame  
+![image-20250702110029463](https://pkuxiaohou.oss-cn-beijing.aliyuncs.com/img/202507021100551.png)
+
+- 多周期随机指标，支持交叉信号与背景高亮。
+- 多周期共振分析，辅助择时。
+- 适合震荡与趋势市场。
+
+---
+
+## 34. Volume Flow Indicator [LazyBear]  
+![image-202507021101092](https://pkuxiaohou.oss-cn-beijing.aliyuncs.com/img/202507021101092.png)
+
+- VFI成交量流向指标，基于OBV改进。
+- 数值正负直观反映多空，结合中间价和成交量过滤。
+- 适合趋势、背离和量价分析。
+
+---
+
+## 35. Breakout Finder  
+![image-202507021102253](https://pkuxiaohou.oss-cn-beijing.aliyuncs.com/img/202507021102253.png)
+
+- 自动识别价格突破/跌破区域，并高亮显示。
+- 辅助捕捉关键突破行情。
+- 适合突破策略和动量交易。
+
+---
+
+## 36. Machine Learning Adaptive SuperTrend [AlgoAlpha]  
+![image-202507021103690](https://pkuxiaohou.oss-cn-beijing.aliyuncs.com/img/202507021103690.png)
+
+- 机器学习自适应超级趋势，基于K均值聚类动态调整参数。
+- 区分高、中、低波动市，趋势转折识别更智能。
+- 自动生成趋势跟踪信号。
+
+---
+
+## 37. AlphaTrend  
+![image-202507021104053](https://pkuxiaohou.oss-cn-beijing.aliyuncs.com/img/202507021104053.png)
+
+- 基于Trend Magic改进的趋势指标，减少震荡虚假信号。
+- 趋势市信号更准，震荡市极少误导。
+- 含支撑阻力参考线。
+
+---
+
+## 38. Deviation Trend Profile [BigBeluga]  
+![image-202507011629740](https://pkuxiaohou.oss-cn-beijing.aliyuncs.com/img/202507011629740.png)
+
+- 结合SMA斜率、ATR标准差和趋势分布统计的趋势剖面工具。
+- 趋势强弱、分布和反转点一目了然。
+- 适合统计分析和趋势识别。
+
+---
+
+## 39. Fibonacci Extension / Retracement / Pivot Points by DGT  
+![image-202507011626083](https://pkuxiaohou.oss-cn-beijing.aliyuncs.com/img/202507011626083.png)
+
+- 集斐波那契扩展、回撤和枢轴点于一体，含成交量和波动性指示。
+- 多种斐波那契算法可选，适合多维度支撑阻力分析。
+- 辅助趋势、回调与目标位测算。
+
+---
+
+## 40. Trend Impulse Channels (Zeiierman)  
+![image-202507011513723.png](https://pkuxiaohou.oss-cn-beijing.aliyuncs.com/img/202507011513723.png)
+
+- 基于ATR波动率的趋势阶梯通道，结构化显示趋势演化。
+- 强调动量，自动调整通道宽度。
+- 清晰标示突破、回调、盘整区域。
+
+
+
+
 
 
 
