@@ -1613,7 +1613,7 @@
 <polyline fill="none" stroke="black" points="29512,-301 29687,-301 "/>
 <text text-anchor="start" x="29597.5" y="-285.8" font-family="Times,serif" font-size="14.00"> </text>
 </g>
-<!-- freqtrade.data.dataprovider.DataProvider -->
+<!-- freqtrade.data.dataprovider.DataProvider.md -->
 <g id="node72" class="node">
 <title>freqtrade.data.dataprovider.DataProvider</title>
 <polygon fill="none" stroke="black" points="9150,-2162.5 9150,-2516.5 9923,-2516.5 9923,-2162.5 9150,-2162.5"/>
@@ -1642,7 +1642,7 @@
 <text text-anchor="start" x="9158" y="-2185.3" font-family="Times,serif" font-size="14.00">ticker(pair: str)</text>
 <text text-anchor="start" x="9158" y="-2170.3" font-family="Times,serif" font-size="14.00">trades(pair: str, timeframe: Optional[str], copy: bool, candle_type: str): DataFrame</text>
 </g>
-<!-- freqtrade.data.dataprovider.DataProvider&#45;&gt;freqtrade.optimize.backtesting.Backtesting -->
+<!-- freqtrade.data.dataprovider.DataProvider.md&#45;&gt;freqtrade.optimize.backtesting.Backtesting -->
 <g id="edge141" class="edge">
 <title>freqtrade.data.dataprovider.DataProvider&#45;&gt;freqtrade.optimize.backtesting.Backtesting</title>
 <path fill="none" stroke="black" d="M9609.37,-2516.66C9673.37,-2646.15 9780.05,-2812.78 9931.5,-2892 9961.93,-2907.91 11133.18,-2908.94 11167.5,-2910 12393.17,-2947.82 12697.8,-3003.18 13923.5,-3040 13942.84,-3040.58 15302.75,-3044.39 15316.5,-3058 15389.76,-3130.52 15287.58,-4839.15 15359.5,-4913 15387.6,-4941.85 15685.36,-4913.24 15721.5,-4931 15836.94,-4987.72 15798.5,-5086.04 15909.5,-5151 15945.08,-5171.82 15974.03,-5137.39 16000.5,-5169 16040.7,-5217.01 16043.16,-5919.41 16039.6,-6426.12"/>
@@ -1669,7 +1669,7 @@
 <text text-anchor="start" x="11157.5" y="-4954.3" font-family="Times,serif" font-size="14.00">shutdown()</text>
 <text text-anchor="start" x="11157.5" y="-4939.3" font-family="Times,serif" font-size="14.00">start()</text>
 </g>
-<!-- freqtrade.data.dataprovider.DataProvider&#45;&gt;freqtrade.rpc.external_message_consumer.ExternalMessageConsumer -->
+<!-- freqtrade.data.dataprovider.DataProvider.md&#45;&gt;freqtrade.rpc.external_message_consumer.ExternalMessageConsumer -->
 <g id="edge252" class="edge">
 <title>freqtrade.data.dataprovider.DataProvider&#45;&gt;freqtrade.rpc.external_message_consumer.ExternalMessageConsumer</title>
 <path fill="none" stroke="black" d="M9609.43,-2516.55C9673.46,-2645.97 9780.15,-2812.58 9931.5,-2892 9982.96,-2919.01 10932.74,-2872.93 10977.5,-2910 11594.74,-3421.19 11492.39,-4548.47 11439.31,-4919.2"/>
@@ -1744,7 +1744,7 @@
 <text text-anchor="start" x="11276.5" y="-6498.8" font-family="Times,serif" font-size="14.00">update_trade_state(trade: Trade, order_id: Optional[str], action_order: Optional[dict[str, Any]]): bool</text>
 <text text-anchor="start" x="11276.5" y="-6483.8" font-family="Times,serif" font-size="14.00">update_trades_without_assigned_fees(): None</text>
 </g>
-<!-- freqtrade.data.dataprovider.DataProvider&#45;&gt;freqtrade.freqtradebot.FreqtradeBot -->
+<!-- freqtrade.data.dataprovider.DataProvider.md&#45;&gt;freqtrade.freqtradebot.FreqtradeBot -->
 <g id="edge140" class="edge">
 <title>freqtrade.data.dataprovider.DataProvider&#45;&gt;freqtrade.freqtradebot.FreqtradeBot</title>
 <path fill="none" stroke="black" d="M9609.63,-2516.83C9673.69,-2646.17 9780.34,-2812.55 9931.5,-2892 9979.11,-2917.02 10861.3,-2872.13 10899.5,-2910 10987.95,-2997.69 10950.86,-5026.83 10960.5,-5151 10998.85,-5645.1 10741.16,-5917.82 11102.5,-6257 11147.8,-6299.52 11331.53,-6238.08 11381.5,-6275 11436.93,-6315.96 11400.15,-6361.44 11436.5,-6420 11446.04,-6435.37 11456.07,-6450.69 11466.51,-6465.92"/>
@@ -1854,7 +1854,7 @@
 <text text-anchor="start" x="15409" y="-3334.8" font-family="Times,serif" font-size="14.00">unlock_reason(reason: str): None</text>
 <text text-anchor="start" x="15409" y="-3320.8" font-family="Times,serif" font-size="14.00">version(): Optional[str]</text>
 </g>
-<!-- freqtrade.data.dataprovider.DataProvider&#45;&gt;freqtrade.strategy.interface.IStrategy -->
+<!-- freqtrade.data.dataprovider.DataProvider.md&#45;&gt;freqtrade.strategy.interface.IStrategy -->
 <g id="edge142" class="edge">
 <title>freqtrade.data.dataprovider.DataProvider&#45;&gt;freqtrade.strategy.interface.IStrategy</title>
 <path fill="none" stroke="black" d="M9608.99,-2516.76C9672.84,-2646.52 9779.52,-2813.48 9931.5,-2892 9980.72,-2917.43 13868.09,-2892.04 13920.5,-2910 14010.15,-2940.72 14000,-3008.85 14089.5,-3040 14155.62,-3063.02 15285.18,-3030.35 15349.5,-3058 15484.43,-3116 15609.39,-3204.78 15720.67,-3304.83"/>
@@ -4673,7 +4673,7 @@
 <polygon fill="black" stroke="black" points="6934.5,-2898.22 6938.5,-2904.22 6934.5,-2910.22 6930.5,-2904.22 6934.5,-2898.22"/>
 <text text-anchor="middle" x="6995" y="-1757.8" font-family="Times,serif" font-size="14.00" fill="green">_symbolsCheckFailed</text>
 </g>
-<!-- freqtrade.util.periodic_cache.PeriodicCache&#45;&gt;freqtrade.data.dataprovider.DataProvider -->
+<!-- freqtrade.util.periodic_cache.PeriodicCache&#45;&gt;freqtrade.data.dataprovider.DataProvider.md -->
 <g id="edge247" class="edge">
 <title>freqtrade.util.periodic_cache.PeriodicCache&#45;&gt;freqtrade.data.dataprovider.DataProvider</title>
 <path fill="none" stroke="black" d="M6982.07,-1249.46C7277.86,-1281.09 8864.9,-1462.65 9240.5,-1754 9367.33,-1852.38 9444.28,-2019.91 9487.8,-2150.45"/>

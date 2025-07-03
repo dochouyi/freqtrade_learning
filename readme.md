@@ -51,21 +51,7 @@
 
 ## 关注的youtube博主
 
-[币圈贤哥](https://www.youtube.com/@user-xiange168)
-
-[Target Hit在线炒币](https://www.youtube.com/@TargetHit)
-
-[Infinity Algo](https://www.youtube.com/watch?v=GMMXpkWb-kc)
-
-[DA交易者联盟](https://www.youtube.com/@dacapitalscom)
-
-[Andy Bitcoinsensus直播讲解BTC](https://www.youtube.com/@Bitcoinsensus)
-
-[Master Technical Analysis (MTA) 技术面 讲解频道](https://www.youtube.com/@mastertechnicalanalysismta7734)
-
-[墨山貓MØC](https://www.youtube.com/@CryptoMOC)
-
-[腦哥 Chill塊鏈](https://www.youtube.com/@brainbrocrypto)
+[币圈贤哥](https://www.youtube.com/@user-xiange168)  [Target Hit在线炒币](https://www.youtube.com/@TargetHit)  [Infinity Algo](https://www.youtube.com/watch?v=GMMXpkWb-kc)  [DA交易者联盟](https://www.youtube.com/@dacapitalscom)  [Andy Bitcoinsensus直播讲解BTC](https://www.youtube.com/@Bitcoinsensus)  [Master Technical Analysis (MTA) 技术面 讲解频道](https://www.youtube.com/@mastertechnicalanalysismta7734)  [墨山貓MØC](https://www.youtube.com/@CryptoMOC)  [腦哥 Chill塊鏈](https://www.youtube.com/@brainbrocrypto)
 
 
 
@@ -80,3 +66,7 @@
 ## tradingview社区指标
 
  [readme.md](tradingview指标/readme.md) 
+
+
+## 学术论文
+[quantum_papers](quantum_papers)
